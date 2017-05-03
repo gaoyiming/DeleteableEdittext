@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+   >
+
+  <com.mr_gao.library.DeleteableEditText xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:background="@color/colorPrimary"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      app:hint="nihao"
+     >
+
+  </com.mr_gao.library.DeleteableEditText>
+  <EditText
+      android:layout_marginTop="100dp"
+      android:layout_width="match_parent"
+      android:layout_height="50dp" />
+
+</RelativeLayout>
+
